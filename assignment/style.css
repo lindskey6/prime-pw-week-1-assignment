@@ -1,8 +1,13 @@
 /* Give your page a fun background color */
 body {
     background-color: grey;
+    background-image: linear-gradient(to bottom right, grey, black);
 }
 /* Make the header and footer a different color from the background */
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header, footer {
     background-color: black;
@@ -38,4 +43,9 @@ img {
 
 ul {
     font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+ul.b {
+    list-style-type: square;
 }
