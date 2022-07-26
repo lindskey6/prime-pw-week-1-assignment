@@ -14,15 +14,14 @@ header, footer {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 15px;
-}
-
-header, footer {
     text-align: center;
 }
+
 
 p {
 color: white;
 font-style: italic;
+font-size: 20px;
 }
 
 img {
@@ -38,7 +37,7 @@ img {
 
 ul {
     font-family: Arial, Helvetica, sans-serif;
-    color: white
+    color: white;
 }
 
 ul.bio {
